@@ -224,18 +224,16 @@ footer{
     height: auto;
     width: 100%;
     color: #B5C0D0;
-    padding: 40px;
+    padding: 20px;
     box-sizing: border-box;
 }
 .footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
+    
 }
 .footer-content h3{
-    font-size: 1.8rem;
+    color: #686D76;
+    font-size: 1.1rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
@@ -253,8 +251,8 @@ footer{
 .footer-bottom{
     background-color: #000000;
     width: 100%;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px 0 -90px 0;
+    text-align: end;
 }
 .footer-bottom a{
     font-size: 16px;
@@ -265,6 +263,8 @@ footer{
     text-transform: uppercase;
     opacity: .5;
     font-weight: 300;
+    
+
 }
 
 /* hover */
